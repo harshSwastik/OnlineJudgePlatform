@@ -51,7 +51,7 @@ console.log("Redux User State:", user);
       
       {/* Navbar Section */}
       <nav className="flex justify-between items-center px-8 py-4 bg-[#191e24] shadow-md border-b border-gray-800">
-        <h1 className="text-2xl font-bold text-white tracking-wide">LeetCode</h1>
+        <h1 className="text-2xl font-bold text-white tracking-wide">Judgify</h1>
         
         {/* UPDATED: User Dropdown Menu */}
         <div className="relative">

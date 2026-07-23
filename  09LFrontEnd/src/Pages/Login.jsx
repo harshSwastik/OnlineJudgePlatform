@@ -43,7 +43,7 @@ function Login() {
     <div className="min-h-screen flex items-center justify-center bg-[#1d232a] font-sans">
       <div className="w-full max-w-md p-8">
         <h1 className="text-4xl font-bold text-white text-center mb-10 tracking-wide">
-          Leetcode
+           Judgify
         </h1>
 
         {error && (

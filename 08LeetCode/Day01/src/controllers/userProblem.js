@@ -3,7 +3,7 @@ const Problem = require('../models/problem');
 const User = require('../models/user');
 const Submission = require('../models/submission');
 const { getLanguageById, submitBatch, submitToken, getErrorMessage } = require('../utils/problemUtility');
-const SolutionVideo = require('../models/solutionVideo');
+const SolutionVideo = require('../models/SolutionVideo');
 const mongoose = require('mongoose');
  
  

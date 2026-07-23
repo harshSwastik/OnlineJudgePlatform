@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const ChatAI = ({ title, description, visibleTestCases, startCode }) => {
   const [messages, setMessages] = useState([
-    { role: 'ai', parts: [{ text: 'Hello! I am your AI assistant. Do you need a hint or an explanation for this problem?' }] }
+    { role: 'ai', parts: [{ text: 'Hello! I am your AI Judgify assistant. Do you need a hint or an explanation for this problem?' }] }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isTyping, setIsTyping] = useState(false); 
@@ -30,7 +30,7 @@ const ChatAI = ({ title, description, visibleTestCases, startCode }) => {
 
     // 2. Axios API Call using Cookies
     try {
-      const response = await axios.post('http://localhost:3000/ai/chat', 
+      const response = await axios.post(' http://13.235.81.137:3000/ai/chat', 
         {
           userPrompt: userText,
           title, 
