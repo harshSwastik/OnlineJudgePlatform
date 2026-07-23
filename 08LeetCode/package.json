@@ -1,0 +1,28 @@
+{
+  "name": "08leetcode",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Day01/src/index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.12.0",
+    "axios": "^1.18.1",
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.10.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.3",
+    "nodemon": "^3.1.14",
+    "redis": "^6.1.0",
+    "validator": "^13.15.35"
+  }
+}
