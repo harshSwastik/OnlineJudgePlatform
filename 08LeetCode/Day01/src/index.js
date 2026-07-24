@@ -11,7 +11,7 @@ const RedisClient = require('./config/redis');
 const submitRouter = require('./routes/submit');
 const VideoRouter = require('./routes/videoCreator');
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: ['http://localhost:5173', 'http://13.235.81.137'],
   credentials: true
 }));
 app.use(express.json());
