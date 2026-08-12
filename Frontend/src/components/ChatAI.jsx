@@ -30,7 +30,7 @@ const ChatAI = ({ title, description, visibleTestCases, startCode }) => {
 
     // 2. Axios API Call using Cookies
     try {
-      const response = await axios.post(' http://13.235.81.137:3000/ai/chat', 
+      const response = await axios.post(' http://localhost:3000/ai/chat', 
         {
           userPrompt: userText,
           title, 
